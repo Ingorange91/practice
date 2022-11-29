@@ -1,0 +1,22 @@
+.grid-container{
+    display: grid;
+    grid-template-rows: 60px;
+    grid-template-columns: repeat(4,minmax(min-content,max-content));
+    grid-auto-rows: 60px;
+
+}
+
+.grid-container .grid-item{
+    padding: 10px;
+    border: 1px solid #26a;
+    margin: 5px;
+}
+
+.confirmar{
+    background-color: #26a;
+    padding: 1em;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: .25em;
+}

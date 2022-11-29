@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none; 
+    text-decoration: none; 
+    box-sizing: border-box;
+}
+
+
+.res{
+    background-color: cyan;
+    color: #fff;
+}
+
+#getInfo, #getInfoDesaprobados{
+    background-color: #24a;
+    color: #fff;
+    padding: 1em;
+    border: 1px solid  #fff;
+    cursor:pointer;
+    
+}
+
+

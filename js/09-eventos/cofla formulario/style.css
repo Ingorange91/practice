@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+form{
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    border-radius: 5px;
+    width: 100%;
+   
+}
+
+h2{
+    margin: 0 auto;
+    color: #fff;
+}
+
+input{
+    margin: 1em auto;
+    width: 90%;
+    border: none;
+    height: 30px;
+}
+
+
+
+input[type="submit"]{
+    height: 50px;
+    text-align: center;
+    background-color: green;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.red{
+    background-color: red;
+    color: #fff;
+}
+
+.green{
+    background-color: green;
+    color: #fff;
+}

@@ -1,0 +1,59 @@
+/* .rectangulo{
+    padding: 100px 200px;
+    background-color: #ccc;
+    margin: 50px;
+    border: 2px dashed black;
+}
+
+.circulo{
+    border-radius: 50%;
+    padding: 40px;
+    margin: 10px;
+    background-color: #f00;
+    display: inline-block;
+
+} */
+
+.texturas{
+    margin: 10;
+    border: 1px solid #000;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.texturas div{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 6px;
+    
+    user-select: all;
+}
+
+.texturas div:hover{
+    cursor: pointer;
+}
+
+.texturas div:active{
+    opacity: .55;
+    cursor: pointer;
+}
+
+.textura1{
+    background: url("img/textura1.png");
+}
+
+.textura2{
+    background: url("img/textura2.png");
+}
+
+.textura3{
+    background: url("img/textura3.png");
+}
+
+.zona{
+    margin: 10px;
+    background-color: #ddd;
+    height: 200px;
+}
+

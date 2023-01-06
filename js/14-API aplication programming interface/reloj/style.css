@@ -1,0 +1,12 @@
+.reloj{
+    font-family: sans-serif;
+    display: flex;
+    background: linear-gradient(#111,#777);    
+    width: 120px;
+    border: 1px solid black;
+    font-size: 2em;
+    padding: .5em;
+    border-radius: 20px;    
+    color: #fff;
+     
+}

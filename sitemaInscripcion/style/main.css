@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+/*INICIO CSS DE NAVIGATION BAR*/
+.header{
+    background-color: #2898ee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    height: 50px;
+
+}
+
+i{
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+
+.nav{
+    background-color: rgba(0, 0, 0, .4);
+    transform: translateX(-150%);
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 50px);
+    top: 50px;
+    left: 0;
+
+}
+
+.nav__links{
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.nav__link{
+}
+
+.link__item{
+    color: #fff;
+    display: block;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px dashed #fff;
+    
+}
+
+/*FIN CSS DE NAVIGATION BAR*/
+
+
+
+
+/*INICIO ZONA MAIN*/
+
+.main{
+    
+    background-color: rgb(249, 249, 249);
+}
+
+.portada{
+    background-image: url("../img/ind.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    width: 100%;
+    height: calc(100vh - 50px);
+    color:#fff
+}
+
+.estructura{
+}
+
+.contenido{
+    background-color: rgb(255 255 255);
+    padding: .75em;
+    margin-bottom: 2em;
+
+}
+
+.contenido__img{
+    width: 100%;
+    height: 200px;
+}
+
+.contenido__fecha{
+    font-size: .8em;
+    text-align: right;
+    padding: .5em;
+    color: #2898ee;
+
+}
+
+.contenido__titulo{
+    margin-top:.5em;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.contenido__parrafo{
+    text-align: justify;
+    padding: .5em;
+}
+
+.contenido__enlace{
+    font-size: .65em;
+    padding: .5em;
+    color: #2898ee;
+    text-transform: uppercase;
+}
+
+
+/*FIN ZONA CENTRAL*/
+
+.footer{
+    /* background: rgb(2,0,36); */
+    width: 100%;
+    color: #fff;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.footer__col{
+    width: 95%;
+    /* background-color: red; */
+    margin: 0 auto;
+}
+
+.footer__col1{
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5em;
+    font-size: 1.5em;
+}
+
+.redes i{
+    margin: 0 5px 5px  0;
+}
+
+.redes i:first-child{
+    color:rgb(17, 154, 244);
+}
+
+.redes i:nth-child(2){
+    color:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);;
+}
+
+.redes i:last-child{
+    color: red;
+}
+
+
+
+
+
+
+
+

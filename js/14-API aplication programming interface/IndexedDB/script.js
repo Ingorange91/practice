@@ -28,6 +28,7 @@ document.getElementById('add').addEventListener("click",()=>{
         if(ClassPosible!= undefined){
             if(confirm("Hay elmentos sin guardar deseas continuar?")){
                 addObjetos({nombre});
+                nombre.value=""; //Linea para eliminar el elmento en el campo nombre y no agregarlo al hacer doble click
                 leerObjetos();
             }
 

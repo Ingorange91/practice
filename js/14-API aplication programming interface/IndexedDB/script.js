@@ -109,7 +109,7 @@ const nombresHTML=(id,name)=>{
     deleteButton.textContent="Eliminar";
     h2.textContent=name.nombre;
     h2.setAttribute("contenteditable", "true")//Para poder editar el label y realizarle modificciones
-    h2.setAttribute("spellcheck","false");
+    h2.setAttribute("spellcheck","false");//para el redodeado de seleccion
 
     options.appendChild(saveButton);
     options.appendChild(deleteButton);
@@ -122,7 +122,7 @@ const nombresHTML=(id,name)=>{
         saveButton.classList.replace("imposible","posible")
     });
 
-    saveButton.addEventListener("click",()=>{
+    saveButton.addEventListener("click",()=>{ 
         if(saveButton.className=='posible'){
             modificarObjetos(id, {nombre: h2.textContent});
             saveButton.classList.replace("posible", "imposible")
@@ -131,10 +131,10 @@ const nombresHTML=(id,name)=>{
 
     deleteButton.addEventListener("click", ()=>{
         borrarObjetos(id);
-        document.querySelector(".nombres").removeChild(container);
+        document.querySelector(".nombres").removeChild(container); 
         
-    });
-
+    }); 
+  
 
 
 

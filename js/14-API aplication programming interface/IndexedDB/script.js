@@ -28,7 +28,7 @@ document.getElementById('add').addEventListener("click",()=>{
         if(ClassPosible!= undefined){
             if(confirm("Hay elmentos sin guardar deseas continuar?")){
                 addObjetos({nombre});
-                nombre.value=""; //Linea para eliminar el elmento en el campo nombre y no agregarlo al hacer doble click
+                nombre.value="";
                 leerObjetos();
             }
 
@@ -126,7 +126,7 @@ const nombresHTML=(id,name)=>{
     saveButton.addEventListener("click",()=>{ 
         if(saveButton.className=='posible'){
             modificarObjetos(id, {nombre: h2.textContent});
-            saveButton.classList.replace("posible", "imposible")
+            saveButton.classList.replace("posible", "imposible");
         }
     });
 

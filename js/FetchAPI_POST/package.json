@@ -1,0 +1,11 @@
+{
+  "name": "fetchapi_post",
+  "version": "1.0.0",
+  "description": "pruebas",
+  "main": "main.js",
+  "scripts": {
+    "json:server": "json-server --watch Inscripcion.json"
+  },
+  "author": "ernesto",
+  "license": "ISC"
+}

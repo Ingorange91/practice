@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-image: url('./fondo.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+.message{ /*cuerpo mensaje*/
+    width: 50%;
+    margin-left: 1em;
+    border-radius: 0 10px 10px 10px;
+    min-height: 40px;
+    margin-bottom: .5em;
+}
+
+
+.space{
+    color: none;
+}
+
+
+
+.navegador{/*color xel main*/
+    background-color: #cdffaf;
+    
+}
+
+.sw{/*color service worker*/
+    background-color: #ffffff;
+}
+
+.texto{
+    margin-left: 1em;
+}
